@@ -1,0 +1,31 @@
+name: elearn
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Optional packages for extra features:
+  animated_text_kit: ^4.2.2    # For animated splash or headings
+  lottie: ^2.7.0                # For fancy Lottie animations
+  confetti: ^0.7.0             # For celebration effects (pass/fail)
+  animated_bottom_navigation_bar: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+
